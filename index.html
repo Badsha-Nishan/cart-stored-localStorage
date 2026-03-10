@@ -7,14 +7,24 @@
   </head>
   <body>
     <main>
-        <label for="">Product Name</label><br>
-      <input type="text" name="product" id="product" placeholder="Enter Product Name" /> <br> <br>
-      <label for="">Product Quantity</label><br>
-      <input type="text" name="quantity" id="quantity" placeholder="Quantity" /> <br> <br>
-      <button class="" id="add-btn">Add Product</button>
-      <ul class="" id="cartContainer">
-
-      </ul>
+      <label for="">Product Name</label><br />
+      <input
+        type="text"
+        name="product"
+        id="product"
+        placeholder="Enter Product Name"
+      />
+      <br />
+      <br />
+      <label for="">Product Quantity</label><br />
+      <input type="text" name="quantity" id="quantity" placeholder="Quantity" />
+      <br />
+      <br />
+      <button onclick="handleProductCart()" class="" id="add-btn">
+        Add Product
+      </button>
+      <h2>Cart</h2>
+      <ul class="" id="cartContainer"></ul>
     </main>
     <script src="script.js"></script>
   </body>
